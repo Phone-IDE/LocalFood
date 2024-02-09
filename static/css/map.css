@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#mapContainer {
+    width: 80%;
+    height: 100%;
+}
+
+.Maptainer {
+    width: 100%;
+    height: 100%;
+}
+
+
+.MapShow {
+    display: none;
+}
+
+#infoContainer {
+    width: 20%;
+    height: 100%;
+    background-color: #f0f0f0; /* 背景色，可以根据需要调整 */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scrollable-card-deck {
+    overflow-y: auto;
+    height: 90%; /* 设置容器的固定高度，根据需要调整 */
+}
+
+.card {
+    margin-bottom: 15px; /* 卡片之间的垂直间隔 */
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
